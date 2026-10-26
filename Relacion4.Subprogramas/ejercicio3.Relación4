@@ -1,0 +1,15 @@
+Funcion resultado<-multiplicar(n1, n2)
+	Definir resultado Como Real
+	resultado<- n1 * n2^2
+FinFuncion
+
+Algoritmo ejercicio3
+	
+	Definir a, b Como Real
+	a<- pi
+	Escribir "Introduzca el valor del radio: "
+	Leer b
+	
+	Escribir multiplicar(a, b)
+	
+FinAlgoritmo

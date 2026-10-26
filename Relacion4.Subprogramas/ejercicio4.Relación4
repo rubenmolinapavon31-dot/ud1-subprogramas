@@ -1,0 +1,40 @@
+Funcion resultado<-multiplicar(n1,n2)
+	Definir resultado, eleccion Como Real
+	
+	Si eleccion= 1 Entonces
+		resultado<- n1 * n2
+	FinSi
+	Si eleccion= 2 Entonces
+		resultado<- n3 * n4
+	FinSi
+	Si eleccion= 3 Entonces
+		resultado<- n5 * n6
+	FinSi
+	
+FinFuncion
+
+Algoritmo ejercicio4
+	
+	Definir eleccion Como Entero
+	Definir a, b, c, d, e, f Como Real
+	Escribir "Introduzca el 1 si quiere cambiar de dolares a euros, introduzca 2 si quiere cambiar de yenes a euros e introduzca 3 si quiere cambiar de libras a euros"
+	Leer eleccion
+	Segun eleccion Hacer
+		1:
+			Escribir "Introduzca en dolares la cantidad que desee: "
+			Leer a
+			b<-0.8885
+			Escribir multiplicar(a,b) "euros"
+		2:
+			Escribir "Introduzca en yenes la cantidad que desee: "
+			Leer c
+			d<-0.005627
+			Escribir multiplicar(c,d) "euros"
+		3:
+			Escribir "Introduzca en libras la cantidad que desee: "
+			Leer e
+			f<-1.1856
+			Escribir multiplicar(e,f) "euros"
+	FinSegun
+	
+FinAlgoritmo

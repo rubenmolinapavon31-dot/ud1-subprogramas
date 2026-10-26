@@ -1,0 +1,16 @@
+Funcion resultado<-potencia(n1,n2)
+	
+	Definir resultado Como Entero
+	resultado<- n1^n2
+FinFuncion
+
+Algoritmo ejercicio2
+	
+	Definir a, b Como Entero
+	Escribir Sin Saltar "Introduzca la base de la potencia: "
+	Leer a
+	Escribir Sin Saltar "Introduzca el exponente de la potencia: "
+	Leer b
+	
+	Escribir potencia(a,b)
+FinAlgoritmo
